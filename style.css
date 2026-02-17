@@ -111,7 +111,44 @@ padding: 60px 20px;
     font-size:28px;
     margin:0 12px;
 }
+@media (max-width:768px){
+    
+    /* Navbar */
+    nav{
+        flex-direction:column;
+        padding:15px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    /* Hero */
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    .hero h1{
+        font-size:32px;
+        padding:0;
+    }
+
+    .img{
+        width:200px;
+        height:200px;
+    }
+
+    /* Footer icons */
+    .social-icons{
+        margin-top:15px;
+    }
+}
+
 
 .social-icons a:hover{
     color:#22c55e;
 }
+
