@@ -43,6 +43,7 @@ nav img{
     margin-bottom: 10px;
     font-size: 40px;
     padding: 0px 300px 10px 300px;
+    font-weight: 400;
 
 }
 .hero h3{
@@ -83,10 +84,11 @@ cursor: pointer;
    text-align: center;
 }
 
-.about h2 {
-   font-size: 36px;
+.abt h2 {
+   font-size: 28px;
    margin-bottom: 30px;
    position: relative;
+   font-weight: 300;
 }
 .abt p {
     padding-top: 20px;
